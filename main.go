@@ -8,10 +8,7 @@ import (
 	"net"
 	"os"
 
-	// _ "github.com/go-sql-driver/mysql"
-	// _ "github.com/glebarez/go-sqlite"
 	_ "github.com/lib/pq"
-	// _ "github.com/jackc/pgx/v4/stdlib"
 	"github.com/neiln3121/explore-service/database/migrations"
 	contract "github.com/neiln3121/explore-service/explore"
 	"github.com/neiln3121/explore-service/internal/api"
